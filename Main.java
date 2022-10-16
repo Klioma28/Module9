@@ -67,7 +67,8 @@ public class Main {
         myQueue.add(52);
         myQueue.add(37);
         System.out.println("Size of queue: " + myQueue.size());
-        System.out.println("First element: " + myQueue.poll());
+        System.out.println("First element: " + myQueue.peek());
+        System.out.println("Polled element: " + myQueue.poll());
         System.out.println("First element after polling: " + myQueue.peek());
         System.out.println("Size of queue after polling: " + myQueue.size());
         myQueue.clear();
@@ -81,7 +82,8 @@ public class Main {
         myQueue1.add("Wednesday");
         myQueue1.add("Thursday");
         System.out.println("Size of queue: " + myQueue1.size());
-        System.out.println("First element: " + myQueue1.poll());
+        System.out.println("First element: " + myQueue1.peek());
+        System.out.println("Polled element: " + myQueue1.poll());
         System.out.println("First element after polling: " + myQueue1.peek());
         System.out.println("Size of queue after polling: " + myQueue1.size());
         //End of task 3 check
@@ -93,7 +95,8 @@ public class Main {
         myStack.push(26);
         myStack.push(7);
         System.out.println("Size of stack: " + myStack.size());
-        System.out.println("First element: " + myStack.pop());
+        System.out.println("First element: " + myStack.peek());
+        System.out.println("Popped element: " + myStack.pop());
         System.out.println("First element after popping: " + myStack.peek());
         System.out.println("Size of stack after popping: " + myStack.size());
         myStack.clear();
@@ -107,7 +110,8 @@ public class Main {
         myStack1.push("March");
         myStack1.push("April");
         System.out.println("Size of stack: " + myStack1.size());
-        System.out.println("First element: " + myStack1.pop());
+        System.out.println("First element: " + myStack1.peek());
+        System.out.println("Popped element: " + myStack1.pop());
         System.out.println("First element after popping: " + myStack1.peek());
         System.out.println("Size of stack after popping: " + myStack1.size());
         //End of task 4 check

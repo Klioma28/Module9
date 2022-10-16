@@ -1,6 +1,6 @@
 package Module9;
 
-public class MyStack<E> extends MyLinkedList {
+public class MyStack<E> extends MyLinkedList<E> {
     public void push(E value){
         add(value);
     }
@@ -11,8 +11,8 @@ public class MyStack<E> extends MyLinkedList {
     }
 
     public E pop(){
-        Node<E> x = last;
+        E item = last.item;
         remove(size-1);
-        return x.item;
+        return item;
     }
 }
